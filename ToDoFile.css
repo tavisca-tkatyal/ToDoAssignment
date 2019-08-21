@@ -1,0 +1,24 @@
+
+*{
+	padding: 0;
+  	margin: 0;
+}
+
+.btn
+{
+	display: block;
+	width: 300px;
+	height: 100px;
+}
+
+#main
+{
+  	width: 1360px;
+  	height: 658px;
+ 
+  	display: -webkit-flex; /* Safari */
+  	display: flex;
+}
+
+#main div:nth-of-type(1){flex-grow: 0;}
+#main div:nth-of-type(2){flex-grow: 3;}
